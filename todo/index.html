@@ -70,8 +70,8 @@
   "keywords": [
     
   ],
-  "articleBody": "个人小工具 优化工作流 ask: CLI工具，输入问题+文件快速修改代码，解决 OpenCode 等工具一次对话消耗过多 tokens 的问题 askCppCli Chrome AI 插件: 浏览器端 AI 辅助 VSCode AI 插件: VSCode 内 AI 工作流 ToDo: 选中代码自动生成指定风格的测试用例 个人小项目 iOS App: AI笔记 解决个人经常忘事问题..\niOS App: AI笔记 架构图\n技术栈 Swift + SQLite 参考 OpenClaw 记忆系统 功能 笔记记录 · AI 自动记忆 · 智能提醒 · 精准问答 特点 舍弃向量数据库，SQLite 做长记忆，短期用纯文本 simpleGateway 解决个人固定需求：电影下好给我发个信息、执行特定AI pipeline工具\nsimpleGateway 架构图\n技术栈 Bun + TypeScript + C# 参考 OpenClaw 网关与 IM 通信思路 核心 Gateway接收IM信息与决定工具调度 设计 工具独立实现，最小权限控制 ",
-  "wordCount" : "72",
+  "articleBody": "个人小工具 优化工作流 ask: CLI工具，输入问题+文件快速修改代码，解决 OpenCode 等工具一次对话消耗过多 tokens 的问题 askCppCli Chrome AI 插件: 浏览器端 AI 辅助 VSCode AI 插件: VSCode 内 AI 工作流 ToDo: 选中代码自动生成指定风格的测试用例 个人小项目 iOS App: AI笔记 解决个人经常忘事问题..\niOS App: AI笔记 架构图\n技术栈 Swift + SQLite 参考 OpenClaw 记忆系统 功能 笔记记录 · AI 自动记忆 · 智能提醒 · 精准问答 特点 舍弃向量数据库，SQLite 做长记忆，短期用纯文本 simpleGateway 解决个人固定需求：电影下好给我发个信息、执行特定AI pipeline工具\nsimpleGateway 架构图\n技术栈 Bun + TypeScript + C# 参考 OpenClaw 网关与 IM 通信思路 核心 Gateway接收IM信息与决定工具调度 设计 工具独立实现，最小权限控制 Dabai Agent 解决个人需求：多个 AI 工具共享底层引擎能力\nDabai Agent 架构图\n技术栈 C++ 定位 通用 AI Agent 引擎，以 lib 形式嵌入各类 AI 工具 能力 Tool Use · Skills 懒加载 特点 上下文管理 · 模型交互 · 能力扩展 ",
+  "wordCount" : "103",
   "inLanguage": "en",
   "datePublished": "2026-01-20T00:00:00Z",
   "dateModified": "2026-01-20T00:00:00Z",
@@ -199,6 +199,31 @@
       <tr>
           <td>设计</td>
           <td>工具独立实现，最小权限控制</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="dabai-agent">Dabai Agent<a hidden class="anchor" aria-hidden="true" href="#dabai-agent">#</a></h3>
+<p>解决个人需求：多个 AI 工具共享底层引擎能力</p>
+<p><a href="https://github.com/XHaoChenX/architecture-diagrams/blob/main/dabai_agent.md">Dabai Agent 架构图</a></p>
+<table>
+  <thead>
+      <tr>
+          <th>技术栈</th>
+          <th>C++</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>定位</td>
+          <td>通用 AI Agent 引擎，以 lib 形式嵌入各类 AI 工具</td>
+      </tr>
+      <tr>
+          <td>能力</td>
+          <td>Tool Use · Skills 懒加载</td>
+      </tr>
+      <tr>
+          <td>特点</td>
+          <td>上下文管理 · 模型交互 · 能力扩展</td>
       </tr>
   </tbody>
 </table>
