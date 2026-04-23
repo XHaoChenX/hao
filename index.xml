@@ -2,25 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hao的主页</title>
-    <link>https://xhaochenx.github.io/hao/</link>
+    <link>http://192.168.3.9:1313/hao/</link>
     <description>Recent content on Hao的主页</description>
-    <generator>Hugo -- 0.154.5</generator>
+    <generator>Hugo -- 0.160.1</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://xhaochenx.github.io/hao/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://192.168.3.9:1313/hao/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>关于Hao</title>
-      <link>https://xhaochenx.github.io/hao/about/</link>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://xhaochenx.github.io/hao/about/</guid>
-      <description>HaoChen的个人经历</description>
+      <title>Dabai Agent实现</title>
+      <link>http://192.168.3.9:1313/hao/posts/dabai-agent/</link>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://192.168.3.9:1313/hao/posts/dabai-agent/</guid>
+      <description>HaoChen的通用AI Agent引擎实现</description>
     </item>
     <item>
-      <title>最近在做..</title>
-      <link>https://xhaochenx.github.io/hao/todo/</link>
+      <title>simpleGateway</title>
+      <link>http://192.168.3.9:1313/hao/posts/simple-gateway/</link>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://192.168.3.9:1313/hao/posts/simple-gateway/</guid>
+      <description>HaoChen的个人Gateway工具实现</description>
+    </item>
+    <item>
+      <title>个人iOS AI笔记软件实现</title>
+      <link>http://192.168.3.9:1313/hao/posts/ios-ai-notes-implementation/</link>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://192.168.3.9:1313/hao/posts/ios-ai-notes-implementation/</guid>
+      <description>HaoChen的iOS AI笔记应用实现记录</description>
+    </item>
+    <item>
+      <title>个人工作流优化</title>
+      <link>http://192.168.3.9:1313/hao/posts/personal-workflow-optimization/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://xhaochenx.github.io/hao/todo/</guid>
-      <description>HaoChen的个人经历</description>
+      <guid>http://192.168.3.9:1313/hao/posts/personal-workflow-optimization/</guid>
+      <description>HaoChen的个人AI辅助工作流工具</description>
+    </item>
+    <item>
+      <title>关于Hao</title>
+      <link>http://192.168.3.9:1313/hao/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://192.168.3.9:1313/hao/about/</guid>
+      <description>&lt;h2 id=&#34;个人概况&#34;&gt;个人概况&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;姓名&lt;/strong&gt;: HaoChen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;技能列表&#34;&gt;技能列表&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;主要编程语言&lt;/strong&gt;: C/C++&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;次要编程语言&lt;/strong&gt;: Python, Rust, Java&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;涉猎&lt;/strong&gt;: 图像渲染, Linux内核, Ai探索, 游戏开发(godot)&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;系统&lt;/strong&gt;: 个人笔记本mac, 台式机一个win, 一个linux, 10几年老Linux用户了&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;编辑器&lt;/strong&gt;: 现在主力vscode了, 快速编辑还是vim, 写笔记emacs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;AI编程工具&lt;/strong&gt;: claude code, codex, opencode基本都用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;工作经历&#34;&gt;工作经历&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;华为 &amp;ndash; 4 years&lt;/li&gt;
+&lt;li&gt;HARMAN &amp;ndash; 3 years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;教育背景&#34;&gt;教育背景&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;伦敦国王学院&lt;/strong&gt; | 硕士&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;利兹大学&lt;/strong&gt; | 本科&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

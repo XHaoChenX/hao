@@ -2,17 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xhaochenx.github.io/hao/</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <loc>http://192.168.3.9:1313/hao/posts/dabai-agent/</loc>
+    <lastmod>2026-04-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xhaochenx.github.io/hao/about/</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <loc>http://192.168.3.9:1313/hao/</loc>
+    <lastmod>2026-04-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xhaochenx.github.io/hao/todo/</loc>
+    <loc>http://192.168.3.9:1313/hao/posts/</loc>
+    <lastmod>2026-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.3.9:1313/hao/posts/simple-gateway/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.3.9:1313/hao/posts/ios-ai-notes-implementation/</loc>
+    <lastmod>2026-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://192.168.3.9:1313/hao/posts/personal-workflow-optimization/</loc>
     <lastmod>2026-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xhaochenx.github.io/hao/categories/</loc>
+    <loc>http://192.168.3.9:1313/hao/categories/</loc>
   </url><url>
-    <loc>https://xhaochenx.github.io/hao/tags/</loc>
+    <loc>http://192.168.3.9:1313/hao/tags/</loc>
+  </url><url>
+    <loc>http://192.168.3.9:1313/hao/about/</loc>
   </url>
 </urlset>
