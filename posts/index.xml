@@ -6,14 +6,28 @@
     <description>Recent content in Posts on Hao的主页</description>
     <generator>Hugo -- 0.160.1</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://xhaochenx.github.io/hao/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vulkan画爱心</title>
+      <link>https://xhaochenx.github.io/hao/posts/heart-demo/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://xhaochenx.github.io/hao/posts/heart-demo/</guid>
+      <description>Vulkan 渲染爱心demo，用于GPU调度review</description>
+    </item>
     <item>
       <title>Dabai Agent实现</title>
       <link>https://xhaochenx.github.io/hao/posts/dabai-agent/</link>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://xhaochenx.github.io/hao/posts/dabai-agent/</guid>
       <description>HaoChen的通用AI Agent引擎实现</description>
+    </item>
+    <item>
+      <title>ROS2 踩坑记录</title>
+      <link>https://xhaochenx.github.io/hao/posts/ros2demo/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://xhaochenx.github.io/hao/posts/ros2demo/</guid>
+      <description>ROS1 和 ROS2 的区别，RMW 抽象层与 DDS 实现</description>
     </item>
     <item>
       <title>simpleGateway</title>
