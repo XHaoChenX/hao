@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Hao的主页</title>
-    <link>http://192.168.3.9:1313/hao/posts/</link>
+    <link>https://xhaochenx.github.io/hao/posts/</link>
     <description>Recent content in Posts on Hao的主页</description>
     <generator>Hugo -- 0.160.1</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://192.168.3.9:1313/hao/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://xhaochenx.github.io/hao/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dabai Agent实现</title>
-      <link>http://192.168.3.9:1313/hao/posts/dabai-agent/</link>
+      <link>https://xhaochenx.github.io/hao/posts/dabai-agent/</link>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://192.168.3.9:1313/hao/posts/dabai-agent/</guid>
+      <guid>https://xhaochenx.github.io/hao/posts/dabai-agent/</guid>
       <description>HaoChen的通用AI Agent引擎实现</description>
     </item>
     <item>
       <title>simpleGateway</title>
-      <link>http://192.168.3.9:1313/hao/posts/simple-gateway/</link>
+      <link>https://xhaochenx.github.io/hao/posts/simple-gateway/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://192.168.3.9:1313/hao/posts/simple-gateway/</guid>
+      <guid>https://xhaochenx.github.io/hao/posts/simple-gateway/</guid>
       <description>HaoChen的个人Gateway工具实现</description>
     </item>
     <item>
       <title>个人iOS AI笔记软件实现</title>
-      <link>http://192.168.3.9:1313/hao/posts/ios-ai-notes-implementation/</link>
+      <link>https://xhaochenx.github.io/hao/posts/ios-ai-notes-implementation/</link>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://192.168.3.9:1313/hao/posts/ios-ai-notes-implementation/</guid>
+      <guid>https://xhaochenx.github.io/hao/posts/ios-ai-notes-implementation/</guid>
       <description>HaoChen的iOS AI笔记应用实现记录</description>
     </item>
     <item>
       <title>个人工作流优化</title>
-      <link>http://192.168.3.9:1313/hao/posts/personal-workflow-optimization/</link>
+      <link>https://xhaochenx.github.io/hao/posts/personal-workflow-optimization/</link>
       <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://192.168.3.9:1313/hao/posts/personal-workflow-optimization/</guid>
+      <guid>https://xhaochenx.github.io/hao/posts/personal-workflow-optimization/</guid>
       <description>HaoChen的个人AI辅助工作流工具</description>
     </item>
   </channel>
