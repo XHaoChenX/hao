@@ -77,8 +77,8 @@
   "keywords": [
     
   ],
-  "articleBody": "个人小项目 simpleGateway 解决个人固定需求：电影下好给我发个信息、执行特定AI pipeline工具\nsimpleGateway 架构图\n技术栈 Bun + TypeScript + C# 参考 OpenClaw 网关与 IM 通信思路 核心 Gateway接收IM信息与决定工具调度 设计 工具独立实现，最小权限控制 ",
-  "wordCount" : "21",
+  "articleBody": "个人小项目 simpleGateway 做这个其实主要是看见小龙虾确实是自动化大趋势，但是它太”自由”了。我并不想直接在我的电脑里让它自由发挥。\n其实也是为了理解 IM Chat 与在电脑里写的 Agent 交换方式。本质也不过是写了一个网关里挂了一个 Agent，加上飞书那套 API 去完成与飞书的交互。\n网关负责调度我写死的 Tools，这些 Tools 其实做的是固定工作——直接 Function Call 方式，限制其能完成的事情，去根据语意执行固定工作流。差不多这个意思。\n这里用 C# 只是因为当时开启的是 Windows 系统，而 Windows 下工具交互最好的语言好像就是 C#。我认为进入大模型时代后，编程语言不应该再因为熟悉与否去使用。因为每一种语言在不同的场景、系统下都有其优势——看场景选择语言，然后做好测试验证即可。毕竟大模型时代后，写代码这件事本身不复杂。做好框架设计、技术选择与测试验证更重要。\nsimpleGateway 架构图链接\n技术栈 Bun + TypeScript + C# 参考 OpenClaw 网关与 IM 通信思路 核心 Gateway接收IM信息与决定工具调度 设计 工具独立实现，最小权限控制 ",
+  "wordCount" : "44",
   "inLanguage": "en",
   "datePublished": "2026-03-19T00:00:00Z",
   "dateModified": "2026-03-19T00:00:00Z",
@@ -152,8 +152,11 @@
   </header> 
   <div class="post-content"><h2 id="个人小项目">个人小项目<a hidden class="anchor" aria-hidden="true" href="#个人小项目">#</a></h2>
 <h3 id="simplegateway">simpleGateway<a hidden class="anchor" aria-hidden="true" href="#simplegateway">#</a></h3>
-<p>解决个人固定需求：电影下好给我发个信息、执行特定AI pipeline工具</p>
-<p><a href="https://github.com/XHaoChenX/architecture-diagrams/blob/main/simple_gateway.md">simpleGateway 架构图</a></p>
+<p>做这个其实主要是看见小龙虾确实是自动化大趋势，但是它太”自由”了。我并不想直接在我的电脑里让它自由发挥。</p>
+<p>其实也是为了理解 IM Chat 与在电脑里写的 Agent 交换方式。本质也不过是写了一个网关里挂了一个 Agent，加上飞书那套 API 去完成与飞书的交互。</p>
+<p>网关负责调度我写死的 Tools，这些 Tools 其实做的是固定工作——直接 Function Call 方式，限制其能完成的事情，去根据语意执行固定工作流。差不多这个意思。</p>
+<p>这里用 C# 只是因为当时开启的是 Windows 系统，而 Windows 下工具交互最好的语言好像就是 C#。我认为进入大模型时代后，编程语言不应该再因为熟悉与否去使用。因为每一种语言在不同的场景、系统下都有其优势——看场景选择语言，然后做好测试验证即可。毕竟大模型时代后，写代码这件事本身不复杂。做好框架设计、技术选择与测试验证更重要。</p>
+<p><a href="https://github.com/XHaoChenX/architecture-diagrams/blob/main/simple_gateway.md">simpleGateway 架构图链接</a></p>
 <table>
   <thead>
       <tr>
