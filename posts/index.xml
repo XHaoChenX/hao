@@ -6,14 +6,21 @@
     <description>Recent content in Posts on Hao的主页</description>
     <generator>Hugo -- 0.161.1</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://xhaochenx.github.io/hao/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>简历AI分析助手</title>
+      <link>https://xhaochenx.github.io/hao/posts/lie/</link>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://xhaochenx.github.io/hao/posts/lie/</guid>
+      <description>猎头场景下简历分析ai助手(技术栈go+chrome插件)</description>
+    </item>
     <item>
       <title>代码仓库分析工具 Agents 蜂群</title>
       <link>https://xhaochenx.github.io/hao/posts/agents-cpp/</link>
       <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
       <guid>https://xhaochenx.github.io/hao/posts/agents-cpp/</guid>
-      <description>多agents并发分析代码仓库并自动绘制架构图的实践与思考</description>
+      <description>多agents并发分析代码仓库并自动绘制架构图的实践与思考(技术栈:c++)</description>
     </item>
     <item>
       <title>Vulkan画爱心</title>
@@ -27,7 +34,7 @@
       <link>https://xhaochenx.github.io/hao/posts/dabai-agent/</link>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://xhaochenx.github.io/hao/posts/dabai-agent/</guid>
-      <description>HaoChen的通用AI Agent引擎实现</description>
+      <description>HaoChen的通用AI Agent引擎实现(技术栈:c++)</description>
     </item>
     <item>
       <title>ROS2 相关记录</title>

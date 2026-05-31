@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Dabai Agent实现 | Hao的主页</title>
+<title>简历AI分析助手 | Hao的主页</title>
 <meta name="keywords" content="">
-<meta name="description" content="HaoChen的通用AI Agent引擎实现(技术栈:c&#43;&#43;)">
+<meta name="description" content="猎头场景下简历分析ai助手(技术栈go&#43;chrome插件)">
 <meta name="author" content="HaoChen">
-<link rel="canonical" href="https://xhaochenx.github.io/hao/posts/dabai-agent/">
+<link rel="canonical" href="https://xhaochenx.github.io/hao/posts/lie/">
 <link crossorigin="anonymous" href="https://xhaochenx.github.io/hao/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://xhaochenx.github.io/hao/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://xhaochenx.github.io/hao/favicon-16x16.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="https://xhaochenx.github.io/hao/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://xhaochenx.github.io/hao/posts/dabai-agent/">
+<link rel="alternate" hreflang="en" href="https://xhaochenx.github.io/hao/posts/lie/">
 <noscript>
     <style>
         #theme-toggle,
@@ -33,18 +33,18 @@
         document.querySelector("html").dataset.theme = 'dark';
     }
 
-</script><meta property="og:url" content="https://xhaochenx.github.io/hao/posts/dabai-agent/">
+</script><meta property="og:url" content="https://xhaochenx.github.io/hao/posts/lie/">
   <meta property="og:site_name" content="Hao的主页">
-  <meta property="og:title" content="Dabai Agent实现">
-  <meta property="og:description" content="HaoChen的通用AI Agent引擎实现(技术栈:c&#43;&#43;)">
+  <meta property="og:title" content="简历AI分析助手">
+  <meta property="og:description" content="猎头场景下简历分析ai助手(技术栈go&#43;chrome插件)">
   <meta property="og:locale" content="zh-cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-04-08T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-04-08T00:00:00+00:00">
+    <meta property="article:published_time" content="2026-05-31T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-05-31T00:00:00+00:00">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Dabai Agent实现">
-<meta name="twitter:description" content="HaoChen的通用AI Agent引擎实现(技术栈:c&#43;&#43;)">
+<meta name="twitter:title" content="简历AI分析助手">
+<meta name="twitter:description" content="猎头场景下简历分析ai助手(技术栈go&#43;chrome插件)">
 
 
 <script type="application/ld+json">
@@ -61,8 +61,8 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Dabai Agent实现",
-      "item": "https://xhaochenx.github.io/hao/posts/dabai-agent/"
+      "name": "简历AI分析助手",
+      "item": "https://xhaochenx.github.io/hao/posts/lie/"
     }
   ]
 }
@@ -71,24 +71,24 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Dabai Agent实现",
-  "name": "Dabai Agent实现",
-  "description": "HaoChen的通用AI Agent引擎实现(技术栈:c++)",
+  "headline": "简历AI分析助手",
+  "name": "简历AI分析助手",
+  "description": "猎头场景下简历分析ai助手(技术栈go+chrome插件)",
   "keywords": [
     
   ],
-  "articleBody": "个人小项目 Dabai Agent 其实主要方便自己复用 Agent，因为我更熟悉 C++，而且这部分代码只是基础 Agent 能力，改动不大，适合编译成库方式直接调用去做其他 AI 工具。\nDabai Agent 架构图链接\n技术栈 C++ 定位 通用 AI Agent 引擎，以 lib 形式嵌入各类 AI 工具 能力 Tool Use · Skills 懒加载 特点 上下文管理 · 模型交互 · 能力扩展 ",
-  "wordCount" : "36",
+  "articleBody": " 技术栈 Go 后端 + Chrome 前端 定位 AI 简历匹配分析工具 架构 前后端分离 部署 只需要在浏览器装个插件, 后续就能右键分析了 起因 因为帮一个猎头朋友看一个候选人简历是否合适，发现她们工作流其实很固定：打开候选人简历 → 判断是否匹配要求 → 进行交流。这个分析过程其实非常适合用 AI 去提效，所以就顺手做了一个分析助手。\n想法 这个助手我采用了前后端分离架构，因为我觉得 Chrome 插件做简单文本分析还行，但是插件内部不适合做复杂agent逻辑或大文本分析。所以我直接让 Go 负责复杂逻辑实现，Chrome 插件只做它最擅长的事情——调用后端服务和展示结果。\n助手操作方式 操作方式也极其简单：Agent App 作为后端，同时有个简单配置界面可以配置 JD。配置好后，浏览器后续只要右键点分析，直接就会对后端发起请求并且展示结果。后续只需要打开候选人简历 → 右键分析 → 不断循环就行。\n效果 效果如下所示：\n",
+  "wordCount" : "40",
   "inLanguage": "en",
-  "datePublished": "2026-04-08T00:00:00Z",
-  "dateModified": "2026-04-08T00:00:00Z",
+  "datePublished": "2026-05-31T00:00:00Z",
+  "dateModified": "2026-05-31T00:00:00Z",
   "author":{
     "@type": "Person",
     "name": "HaoChen"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://xhaochenx.github.io/hao/posts/dabai-agent/"
+    "@id": "https://xhaochenx.github.io/hao/posts/lie/"
   },
   "publisher": {
     "@type": "Organization",
@@ -144,38 +144,45 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Dabai Agent实现
+      简历AI分析助手
     </h1>
-    <div class="post-meta"><span title='2026-04-08 00:00:00 +0000 UTC'>April 8, 2026</span>&nbsp;·&nbsp;<span>HaoChen</span>
+    <div class="post-meta"><span title='2026-05-31 00:00:00 +0000 UTC'>May 31, 2026</span>&nbsp;·&nbsp;<span>HaoChen</span>
 
 </div>
   </header> 
-  <div class="post-content"><h2 id="个人小项目">个人小项目<a hidden class="anchor" aria-hidden="true" href="#个人小项目">#</a></h2>
-<h3 id="dabai-agent">Dabai Agent<a hidden class="anchor" aria-hidden="true" href="#dabai-agent">#</a></h3>
-<p>其实主要方便自己复用 Agent，因为我更熟悉 C++，而且这部分代码只是基础 Agent 能力，改动不大，适合编译成库方式直接调用去做其他 AI 工具。</p>
-<p><a href="https://github.com/XHaoChenX/architecture-diagrams/blob/main/dabai_agent.md">Dabai Agent 架构图链接</a></p>
-<table>
+  <div class="post-content"><table>
   <thead>
       <tr>
           <th>技术栈</th>
-          <th>C++</th>
+          <th>Go 后端 + Chrome 前端</th>
       </tr>
   </thead>
   <tbody>
       <tr>
           <td>定位</td>
-          <td>通用 AI Agent 引擎，以 lib 形式嵌入各类 AI 工具</td>
+          <td>AI 简历匹配分析工具</td>
       </tr>
       <tr>
-          <td>能力</td>
-          <td>Tool Use · Skills 懒加载</td>
+          <td>架构</td>
+          <td>前后端分离</td>
       </tr>
       <tr>
-          <td>特点</td>
-          <td>上下文管理 · 模型交互 · 能力扩展</td>
+          <td>部署</td>
+          <td>只需要在浏览器装个插件, 后续就能右键分析了</td>
       </tr>
   </tbody>
 </table>
+<h2 id="起因">起因<a hidden class="anchor" aria-hidden="true" href="#起因">#</a></h2>
+<p>因为帮一个猎头朋友看一个候选人简历是否合适，发现她们工作流其实很固定：打开候选人简历 → 判断是否匹配要求 → 进行交流。这个分析过程其实非常适合用 AI 去提效，所以就顺手做了一个分析助手。</p>
+<h2 id="想法">想法<a hidden class="anchor" aria-hidden="true" href="#想法">#</a></h2>
+<p>这个助手我采用了前后端分离架构，因为我觉得 Chrome 插件做简单文本分析还行，但是插件内部不适合做复杂agent逻辑或大文本分析。所以我直接让 Go 负责复杂逻辑实现，Chrome 插件只做它最擅长的事情——调用后端服务和展示结果。</p>
+<h2 id="助手操作方式">助手操作方式<a hidden class="anchor" aria-hidden="true" href="#助手操作方式">#</a></h2>
+<p>操作方式也极其简单：Agent App 作为后端，同时有个简单配置界面可以配置 JD。配置好后，浏览器后续只要右键点分析，直接就会对后端发起请求并且展示结果。后续只需要打开候选人简历 → 右键分析 → 不断循环就行。</p>
+<h2 id="效果">效果<a hidden class="anchor" aria-hidden="true" href="#效果">#</a></h2>
+<p>效果如下所示：</p>
+<video controls width="100%">
+  <source src="https://xhaochenx.github.io/hao/lie.mp4" type="video/mp4">
+</video>
 
 
   </div>
